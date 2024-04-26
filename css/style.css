@@ -1,0 +1,177 @@
+
+/*
+header{
+    display: flex;
+    width: 100%;
+    height: 115px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+    align-items: center;
+}*/
+
+@media (min-width: 768px){
+    .header{
+        border: 1px solid black;
+        border-radius: 15px;
+        padding: 20px;
+    }
+}
+header img{
+    width: 65px;
+}
+
+header nav div ul li a{
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+   font-family: "Work Sans";
+    
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(233, 219, 219, 0.908);
+    background-image: url(../assets/img/reparacion_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 385px;
+    border-radius: 25px;
+
+
+}
+
+/* Seccion #1 del index*/
+
+.serv-principal{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.serv-article{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 5px;
+
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    width: 300px !important;
+    height: 200px;
+}
+
+.card img{
+    display: flex;
+    margin: 20px;
+
+    width: 100px;
+}
+
+/*Seccion #2 del index*/
+.video{
+    margin: 25px;
+
+}
+
+.video-article div{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*Propiedades al video del index*/
+
+.video-article div>iframe{
+    width: 100%;
+    height: 300px;
+    aspect-ratio: 16/9;
+}
+
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+
+footer section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer section div img{
+    width: 25px;
+    
+}
+
+
+/*Sobre nosotros*/
+
+.banner-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(219, 217, 217, 0.908);
+    background-image: url(../assets/img/about.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 295px;
+    border-radius: 25px;
+}
+
+.sobreNosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+
+
+
+}
+
+.info-nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    box-shadow: 0px 1px 2px 1px;
+
+}
+
+.img-nosotros img{
+    border-radius: 15px;
+    width: 500px;
+}
+
+
+/* Servicios */
+
+.banner-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(219, 217, 217, 0.908);
+    background-image: url(../assets/img/mantenimiento_1-jpg.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 385px;
+    border-radius: 25px;
+
+}

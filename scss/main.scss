@@ -1,0 +1,17 @@
+@import "utilities/variables";
+@import "base/reset";
+@import "base/fonts";
+@import "base/typography";
+@import "components/buttons";
+@import "layout/header";
+@import "layout/layout";
+@import "layout/banner_index";
+@import "views/index.scss";
+@import "layout/banner_sobreNosotros";
+@import "views/sobre_nosotros";
+@import "layout/banner_servicios";
+@import "views/servicios";
+@import "layout/banner_contacto";
+@import "views/contacto";
+@import "layout/footer";
+@import "views/index";

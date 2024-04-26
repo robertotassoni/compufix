@@ -1,0 +1,67 @@
+.serv-principal {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 15px;
+
+    .serv-article {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        gap: 45px;
+    
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            gap: 3px;
+            width: 285px;
+            height: 445px;
+            padding: 24px;
+            font-family: "Work Sans";
+            transition: height 2s;
+
+    
+            img {
+                width: 115px!important;
+                padding: 5px;
+    
+    
+    
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*Seccion #2 del index*/
+.video {
+    margin: 25px;
+
+}
+
+.video-article div {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*Propiedades al video del index*/
+
+.video-article div>iframe {
+    width: 100%;
+    height: 300px;
+    aspect-ratio: 16/9;
+}

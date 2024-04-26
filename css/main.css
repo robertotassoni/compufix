@@ -1,0 +1,343 @@
+/*titulos*/
+/*parrafos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url(../assets/fonts/Work_Sans/static/WorkSans-Regular.ttf);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "David Libre", serif;
+  font-weight: 700;
+  color: #101A24;
+}
+
+a {
+  color: rgb(66, 66, 66);
+  text-decoration: none;
+  font-family: "Work Sans";
+}
+
+p {
+  color: #101A24;
+  font-size: 16PX;
+}
+
+/*Estilos del Header*/
+.header {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 4px;
+}
+.header img {
+  width: 65px;
+}
+.header div nav {
+  width: 100%;
+}
+.header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+.header nav ul li a {
+  color: rgb(66, 66, 66);
+  text-decoration: none;
+  font-family: "Work Sans";
+}
+
+/*  Banner index */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(233, 219, 219, 0.908);
+  background-image: url(../assets/img/reparacion_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 285px;
+  border-radius: 25px;
+}
+
+.serv-principal {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 15px;
+}
+.serv-principal .serv-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  gap: 45px;
+}
+.serv-principal .serv-article .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 3px;
+  width: 285px;
+  height: 445px;
+  padding: 24px;
+  font-family: "Work Sans";
+  transition: height 2s;
+}
+.serv-principal .serv-article .card img {
+  width: 115px !important;
+  padding: 5px;
+}
+
+/*Seccion #2 del index*/
+.video {
+  margin: 25px;
+}
+
+.video-article div {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*Propiedades al video del index*/
+.video-article div > iframe {
+  width: 100%;
+  height: 300px;
+  aspect-ratio: 16/9;
+}
+
+/* Banner SobreNosotros */
+.banner-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(219, 217, 217, 0.908);
+  background-image: url(../assets/img/about.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: space;
+  width: 100%;
+  height: 295px;
+  border-radius: 25px;
+}
+
+/*Sobre Nosotros*/
+.sobreNosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.info-nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px;
+  padding: 5px;
+  box-shadow: 0px 1px 2px 1px;
+  width: 100%;
+}
+
+.img-nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+}
+.img-nosotros img {
+  border-radius: 25px;
+  width: 100%;
+}
+
+/*.img-nosotros img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    width: 250px;
+}*/
+/* Banner Servicios */
+.banner-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(219, 217, 217, 0.908);
+  background-image: url(../assets/img/mantenimiento_1-jpg.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 285px;
+  border-radius: 25px;
+}
+
+.serv-principal {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.serv-principal .serv-article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  margin: 8px;
+  gap: 10px;
+  width: 100%;
+}
+.serv-principal .serv-article .card img {
+  width: 350px !important;
+  padding: 4px;
+}
+
+.servicios article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.servicios article .item-serv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.servicios article .item-serv > iframe {
+  width: 100%;
+  height: 300px;
+  aspect-ratio: 16/9;
+}
+
+.banner-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(219, 217, 217, 0.908);
+  background-image: url(../assets/img/contacto.jpeg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 285px;
+  border-radius: 25px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  margin: 8px;
+  width: 100%;
+  height: auto;
+}
+.formulario .mapa > iframe {
+  width: 100%;
+  height: 300px;
+  aspect-ratio: 16/9;
+}
+.formulario .campos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+
+footer section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer section div img {
+  width: 25px;
+}
+
+.serv-principal {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 15px;
+}
+.serv-principal .serv-article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  gap: 45px;
+}
+.serv-principal .serv-article .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 3px;
+  width: 285px;
+  height: 445px;
+  padding: 24px;
+  font-family: "Work Sans";
+  transition: height 2s;
+}
+.serv-principal .serv-article .card img {
+  width: 115px !important;
+  padding: 5px;
+}
+
+/*Seccion #2 del index*/
+.video {
+  margin: 25px;
+}
+
+.video-article div {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*Propiedades al video del index*/
+.video-article div > iframe {
+  width: 100%;
+  height: 300px;
+  aspect-ratio: 16/9;
+}
+
+/*# sourceMappingURL=main.css.map */
