@@ -26,16 +26,17 @@
             height: 445px;
             padding: 24px;
             font-family: "Work Sans";
-            transition: height 2s;
+            transition: all 0.2s;
 
     
             img {
                 width: 115px!important;
                 padding: 5px;
     
-    
-    
             }
+        }
+        .card:hover{
+            transform: scale(1.1)
         }
     }
 }
